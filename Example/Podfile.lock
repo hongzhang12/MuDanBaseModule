@@ -1,0 +1,16 @@
+PODS:
+  - MuDanBaseModule (0.1.0)
+
+DEPENDENCIES:
+  - MuDanBaseModule (from `../`)
+
+EXTERNAL SOURCES:
+  MuDanBaseModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MuDanBaseModule: 956bd69f6d1a2783bb49116c7ac89a22b96a04d6
+
+PODFILE CHECKSUM: 4c5ece480435bb918f40c45ae69c7b4c9b0d7f77
+
+COCOAPODS: 1.9.3

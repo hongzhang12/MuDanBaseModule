@@ -1,0 +1,6 @@
+framework module MuDanBaseModule {
+  umbrella header "MuDanBaseModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

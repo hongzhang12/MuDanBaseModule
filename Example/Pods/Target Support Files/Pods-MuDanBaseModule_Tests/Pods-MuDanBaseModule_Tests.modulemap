@@ -1,0 +1,6 @@
+framework module Pods_MuDanBaseModule_Tests {
+  umbrella header "Pods-MuDanBaseModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
