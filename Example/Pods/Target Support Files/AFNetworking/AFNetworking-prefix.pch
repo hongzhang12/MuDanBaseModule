@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "MDBaseView.h"
-
-FOUNDATION_EXPORT double MuDanBaseModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char MuDanBaseModuleVersionString[];
-

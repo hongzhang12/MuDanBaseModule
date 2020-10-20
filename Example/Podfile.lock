@@ -1,16 +1,37 @@
 PODS:
-  - MuDanBaseModule (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - MuDanBaseModule (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - MuDanBaseModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   MuDanBaseModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MuDanBaseModule: 956bd69f6d1a2783bb49116c7ac89a22b96a04d6
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MuDanBaseModule: 91502334a2744638505a2f907c56accd7c1024ad
 
-PODFILE CHECKSUM: 4c5ece480435bb918f40c45ae69c7b4c9b0d7f77
+PODFILE CHECKSUM: d7129089a66960b99f932676bc9109d8a44cf09c
 
 COCOAPODS: 1.9.3
