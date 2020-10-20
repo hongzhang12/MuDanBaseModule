@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0FC46A3ECFC7250316EFF8B405BD088A /* Pods-MuDanBaseModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C4E9AD5D3C781B86DFA94557D2BB80 /* Pods-MuDanBaseModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11272FE7CD02CEA011423A764D21D72D /* Pods-MuDanBaseModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CAD5A9614F3EB861E112C41DF0E45E /* Pods-MuDanBaseModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56D69CB78BBFC1091ED865B14F12A4FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA01F3DD9945E521B38205B96B33F25 /* ReplaceMe.m */; };
 		66908E80179898083CCF47A77798346B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		92FD83F0388BEA179FD822516CB892BB /* MuDanBaseModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5D3AD1139C53D7C228A6283660E7EF /* MuDanBaseModule-dummy.m */; };
 		BA90330204859FEC3ED045B812A3BF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D7E50F8B1F649E489EF9B53CCC6A943E /* Pods-MuDanBaseModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD910FE1B2090439207C554B9B67A16 /* Pods-MuDanBaseModule_Example-dummy.m */; };
 		DB6CBF813152C3931E9441C688130ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EA6C5FB807A0242BD5D06CC74126CB65 /* MuDanBaseModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69DC3B87D1B579B5E9E864EB81C93426 /* MuDanBaseModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC836FC9253EC288002FB9E0 /* MDBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC836FC7253EC288002FB9E0 /* MDBaseView.h */; };
+		FC836FCA253EC288002FB9E0 /* MDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC836FC8253EC288002FB9E0 /* MDBaseView.m */; };
 		FD3E4C10EC7B3196C5495579447894A4 /* Pods-MuDanBaseModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D06C8339F7DD36CAF541450D01F3A6C /* Pods-MuDanBaseModule_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -46,30 +47,31 @@
 		32EAFABAB4EB92A6AB9BF81D687BBDA8 /* Pods-MuDanBaseModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuDanBaseModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		349DB953E6C8E0C26C1CC51B436FF95C /* Pods-MuDanBaseModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuDanBaseModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46CAD5A9614F3EB861E112C41DF0E45E /* Pods-MuDanBaseModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuDanBaseModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4D37C6B18FE061B66D177C77F9287322 /* Pods_MuDanBaseModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MuDanBaseModule_Example.framework; path = "Pods-MuDanBaseModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D37C6B18FE061B66D177C77F9287322 /* Pods_MuDanBaseModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuDanBaseModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601FADF4841DD8946218F348D69B314D /* MuDanBaseModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MuDanBaseModule.release.xcconfig; sourceTree = "<group>"; };
 		69DC3B87D1B579B5E9E864EB81C93426 /* MuDanBaseModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MuDanBaseModule-umbrella.h"; sourceTree = "<group>"; };
-		6EA01F3DD9945E521B38205B96B33F25 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MuDanBaseModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6FE80FF67488C1A581DBA228CDED58B1 /* Pods-MuDanBaseModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuDanBaseModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73FF9A491B8AED9474A408C2A0ED20EA /* Pods-MuDanBaseModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuDanBaseModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D06C8339F7DD36CAF541450D01F3A6C /* Pods-MuDanBaseModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuDanBaseModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		8A67D065AD30AF90E2474A39CD8B3EAD /* MuDanBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MuDanBaseModule.framework; path = MuDanBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A67D065AD30AF90E2474A39CD8B3EAD /* MuDanBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MuDanBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90761AF528827D5ECC1DE0C2AF37E014 /* MuDanBaseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MuDanBaseModule.debug.xcconfig; sourceTree = "<group>"; };
 		9BA9638B5455623CEF7E78B04BE44F24 /* Pods-MuDanBaseModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuDanBaseModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A041AE1D76061AF75D78F5380F6AF858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A12AE1878565AAB4F19AC3E735616C36 /* MuDanBaseModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MuDanBaseModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A041AE1D76061AF75D78F5380F6AF858 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A12AE1878565AAB4F19AC3E735616C36 /* MuDanBaseModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MuDanBaseModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A867C51A020379E89AEC14CE2B2429BF /* Pods-MuDanBaseModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuDanBaseModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		C269F72BBA609A6E22A828A1FCDEAA42 /* Pods-MuDanBaseModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuDanBaseModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D26EF274229059CEEA2B375E2765FA20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D26EF274229059CEEA2B375E2765FA20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE5D3AD1139C53D7C228A6283660E7EF /* MuDanBaseModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MuDanBaseModule-dummy.m"; sourceTree = "<group>"; };
 		E22B3B203AF90F6950DAB39EFD271738 /* Pods-MuDanBaseModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MuDanBaseModule_Example.modulemap"; sourceTree = "<group>"; };
 		E8371A54BA1DD4E0A6E09142E56249DD /* Pods-MuDanBaseModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuDanBaseModule_Example-Info.plist"; sourceTree = "<group>"; };
-		EF69B1F89B9AD9C6217A475590421E02 /* Pods_MuDanBaseModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MuDanBaseModule_Tests.framework; path = "Pods-MuDanBaseModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF69B1F89B9AD9C6217A475590421E02 /* Pods_MuDanBaseModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuDanBaseModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD910FE1B2090439207C554B9B67A16 /* Pods-MuDanBaseModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuDanBaseModule_Example-dummy.m"; sourceTree = "<group>"; };
 		F0F1914A1474C3EA24D67BC214659BD0 /* Pods-MuDanBaseModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuDanBaseModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3C4E9AD5D3C781B86DFA94557D2BB80 /* Pods-MuDanBaseModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuDanBaseModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		FABE210286C2FDCF83EC6EC7D08B46AA /* MuDanBaseModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MuDanBaseModule-prefix.pch"; sourceTree = "<group>"; };
+		FC836FC7253EC288002FB9E0 /* MDBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBaseView.h; sourceTree = "<group>"; };
+		FC836FC8253EC288002FB9E0 /* MDBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,7 @@
 		00C84C8D9086DE6AC99F369B31D8A2A8 /* MuDanBaseModule */ = {
 			isa = PBXGroup;
 			children = (
-				6EA01F3DD9945E521B38205B96B33F25 /* ReplaceMe.m */,
+				FC836FC6253EC272002FB9E0 /* MDBaseView */,
 				154F95184A4BCE506D04A04FC19FDC60 /* Pod */,
 				A9DAB83E4B15EB8B91D531E21D71E2B1 /* Support Files */,
 			);
@@ -223,6 +225,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FC836FC6253EC272002FB9E0 /* MDBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				FC836FC7253EC288002FB9E0 /* MDBaseView.h */,
+				FC836FC8253EC288002FB9E0 /* MDBaseView.m */,
+			);
+			name = MDBaseView;
+			path = MuDanBaseModule/Classes/MDBaseView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6C5FB807A0242BD5D06CC74126CB65 /* MuDanBaseModule-umbrella.h in Headers */,
+				FC836FC9253EC288002FB9E0 /* MDBaseView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC836FCA253EC288002FB9E0 /* MDBaseView.m in Sources */,
 				92FD83F0388BEA179FD822516CB892BB /* MuDanBaseModule-dummy.m in Sources */,
-				56D69CB78BBFC1091ED865B14F12A4FF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,8 +537,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
